@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background: linear-gradient(to right, #1ce0ff, #0026d5);
+
+}
+
+#nadpis{
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+.centered-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.white-box{
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+#map {
+    width: 95%;
+    margin-left: 2.5%;
+    height: 500px;
+    border-radius: 8px;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1920' height='1080' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1837%26quot%3b)' fill='none'%3e%3crect width='1920' height='1080' x='0' y='0' fill='url(%23SvgjsLinearGradient1838)'%3e%3c/rect%3e%3cpath d='M79 1080L1159 0L1904.5 0L824.5 1080z' fill='url(%23SvgjsLinearGradient1839)'%3e%3c/path%3e%3cpath d='M668.6 1080L1748.6 0L2662.1 0L1582.1 1080z' fill='url(%23SvgjsLinearGradient1839)'%3e%3c/path%3e%3cpath d='M1909 1080L829 0L-98 0L982 1080z' fill='url(%23SvgjsLinearGradient1840)'%3e%3c/path%3e%3cpath d='M1206.4 1080L126.40000000000009 0L-704.5999999999999 0L375.4000000000001 1080z' fill='url(%23SvgjsLinearGradient1840)'%3e%3c/path%3e%3cpath d='M853.1508592748278 1080L1920 13.15085927482778L1920 1080z' fill='url(%23SvgjsLinearGradient1839)'%3e%3c/path%3e%3cpath d='M0 1080L1066.8491407251722 1080L 0 13.15085927482778z' fill='url(%23SvgjsLinearGradient1840)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1837'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='50%25' y1='100%25' x2='50%25' y2='0%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1838'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(6%2c 9%2c 14%2c 0)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1839'%3e%3cstop stop-color='rgba(1%2c 72%2c 223%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(1%2c 72%2c 223%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1840'%3e%3cstop stop-color='rgba(1%2c 72%2c 223%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(1%2c 72%2c 223%2c 1)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+#vstup{
+    margin-top: 30px;
+    width: 30%;
+}
+.divBut{
+    display: inline-block;
+}
+#buttoncontainer{
+    border: #eeeeee solid 3px;
+    display: flex;
+    justify-content: space-between;
+    padding:15px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    font-size: larger;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#but{
+    padding: 7px;
+    border-radius: 6px;
+    background-color: darkblue;
+    color: white;
+}
+footer{
+    width: 100% !important;
+}
+footer p {
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+}
+

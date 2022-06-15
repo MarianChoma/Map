@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="./leaflet.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css">
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <title>Mapa</title>
+</head>
+<body>
+<header>
+    <h1 id="nadpis">Fotogaléria</h1>
+</header>
+<div class="centred-content">
+    <div class="white-box">
+        <div id="map" class="map"></div>
+    </div>
+    <div id="buttoncontainer">
+        <button class="button is-dark is-center " id="but" onclick="superi()">Vypočítať vzdialenosť</button>
+        <p>
+            Vzdialenosť: <span id="length"></span>
+        </p>
+    </div>
+    <footer>
+        <p>&copy; Marián Choma</p>
+    </footer>
+
+</div>
+
+<script src="main.js"></script>
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+</body>
+</html>
